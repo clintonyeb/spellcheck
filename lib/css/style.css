@@ -1,0 +1,21 @@
+.is-centered {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 1em auto;
+}
+
+
+.wrong {
+  color: red;
+}
+
+
+#results {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1em;
+  margin: 2em;
+}

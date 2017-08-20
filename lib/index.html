@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Spell Checker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="title is-centered is-1">GDG BBSR</h2>
+    <h3 class="subtitle is-centered is-3">Spell Check</h3>
+
+    <div id="results" class="center ">
+
+    </div>
+
+    <div class="columns">
+      <div class="column is-narrow">
+          <h3 class="title is-5">Add a new word</h3>
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="New word" id="word">
+            </div>
+          </div>
+
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-primary center" id="add">Add to Dictionary</button>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="column">
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea" placeholder="Enter your text here" id="userText"></textarea>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-primary center" id="submit">Submit</button>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
